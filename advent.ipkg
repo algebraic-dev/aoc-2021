@@ -1,0 +1,4 @@
+package advent
+
+main = Day1 
+executable = "main"

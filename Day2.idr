@@ -48,4 +48,3 @@ main = do
     let Just content = formatData content | Nothing => putStrLn "Invalid Input"
     putStrLn "Part One: \{show $ partOne content}"
     putStrLn "Part Two: \{show $ partTwo content}"
-    pure ()

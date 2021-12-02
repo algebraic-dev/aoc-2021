@@ -1,4 +1,4 @@
 package advent
 
-main = Day1 
+main = Day1
 executable = "main"

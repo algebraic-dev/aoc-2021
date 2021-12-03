@@ -39,8 +39,8 @@ partOne = processPos ( \u => record {x $= (+ u)}
 
 partTwo : List Direction -> Int 
 partTwo = processPos ( \u, pos => record { x $= (+ u), y $= (+ (pos.aim * u))} pos
-                     , \u => record { aim $= (+ (-u)) }
-                     , \u => record { aim $= (+ u) })
+                     , \u      => record { aim $= (+ (-u)) }
+                     , \u      => record { aim $= (+ u) })
 
 main : IO ()
 main = do 

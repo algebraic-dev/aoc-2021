@@ -1,4 +1,5 @@
 package advent
 
-main = Day1
+main = Day3
 executable = "main"
+depends = contrib
